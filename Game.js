@@ -21,6 +21,7 @@ message.textContent= "Correct Number 🎉✨";
 score--;
 document.querySelector(".score").textContent =score;
 document.body.style.backgroundColor ="green";
+document.querySelector(".secretNumber").textContent =secretNumber;
 document.querySelector(".secretNumber").style.cssText= "width:200px ;";
 if(score > highScore ){
 highScore = score;
